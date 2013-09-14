@@ -20,7 +20,7 @@ div.mainWrapper {
 body {
 	background-image:url('background.png');
 	background-repeat:no-repeat;
-	background-position: 0% 50%;/* center top; */
+	background-position: center top;
 	background-color:#ffffff; 
 }
 
@@ -56,12 +56,12 @@ div.innerLayOutBox {
 
 
 	background-color: yellow;
-	margin: 30px 30px 30px 30px;
+	margin: 30px 30px 30px 0px;
 	padding-top: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 100px;
-	width: 100%;
+	width: 90%;
 	background-color: rgba(255, 255, 255, 0.4);
 	border: 1px solid #e5e5e5;
 	/*box-shadow: 10px 10px 5px #888888;*/
@@ -113,8 +113,9 @@ div.rightRegion {
 div.demo {
 	/*float: right;*/
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
+	padding: 30px 10px 30px 10px;
+	bottom: 60px;
+	right: 60px;
 	width: 90px;
 	border: 1px dashed;
 	text-align: center;
