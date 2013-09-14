@@ -27,6 +27,15 @@ hr.layOutLine {
 	visibility: hidden;
 }
 
+div.layOutLine {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	width: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
 div.navBar  li {
 	width: 40px;
 	/* float: left; */
