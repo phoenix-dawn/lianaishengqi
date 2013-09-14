@@ -1,0 +1,36 @@
+div.navBarWrapper {
+	position: fixed;
+	width: 100%;
+	background--color:#FFFFFF;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	z-index:1;
+}
+
+div.navBar {
+	width: 966px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.mainWrapper {
+	width: 966px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	height: 100%;
+}
+
+hr.layOutLine {
+	width: 100%;
+	clear: both;
+	visibility: hidden;
+}
+
+div.navBar  li {
+	width: 40px;
+	/* float: left; */
+	display: inline;
+	text-align: center;
+}
+
