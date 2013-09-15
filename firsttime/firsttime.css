@@ -3,7 +3,6 @@ body {
 	background-repeat:no-repeat;
 	background-position: center top;
 	background-color:#e6e6ff; 
-	background-size: 90%;
 }
 
 div.content {
@@ -23,7 +22,7 @@ div.mainWrapper {
 
 div.textBox {
 	height: 20%;
-	padding-bottom: 100px;
+	/*padding-bottom: 100px;*/
 }
 
 div.functionInnerBox, div.textInnerBox {
@@ -33,12 +32,13 @@ div.functionInnerBox, div.textInnerBox {
 div.functionInnerBox {
 	width: 80%;
 	height: 90%;
-	margin-top: 50px;
+	margin-top: 100px;
 	padding-top: 10%;
 }
 
 div.textInnerBox {
 	/*margin-top: 7%;*/
+	margin-top: 80px;
 	width: 70%;
 	
 }
