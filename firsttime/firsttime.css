@@ -34,11 +34,11 @@ div.functionInnerBox {
 	width: 80%;
 	height: 90%;
 	margin-top: 50px;
-	padding-top: 50px;
+	padding-top: 10%;
 }
 
 div.textInnerBox {
-	margin-top: 50px;
+	/*margin-top: 7%;*/
 	width: 70%;
 	
 }
