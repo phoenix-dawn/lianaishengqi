@@ -2,5 +2,13 @@ body {
 	background-image:url('background.png');
 	background-repeat:no-repeat;
 	background-position: center top;
-	background-color:#e6e6ff; 
+	background-color:#ffffff; 
+}
+
+div.mainWrapper {
+	height: 600px;
+}
+
+div.searchBar {
+	width: 100%;
 }
