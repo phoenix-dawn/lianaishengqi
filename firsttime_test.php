@@ -1,3 +1,3 @@
 <?php
-	echo "hello world";
+	include('firsttime/firsttime.htm');
 ?>
