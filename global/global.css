@@ -43,3 +43,17 @@ div.navBar  li {
 	text-align: center;
 }
 
+div.verticalLayoutHelper {
+	height: 112%; 
+	width:0px; 
+	margin-top:-7px; 
+	vertical-align: middle; 
+	display: inline-block;
+}
+
+.standardRadius {
+	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+			border-radius: 10px;
+}
+
