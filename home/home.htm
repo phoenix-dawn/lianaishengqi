@@ -9,8 +9,9 @@
 		<meta http-equiv="Content-Language" content="zh-cn">
 		<meta http-equiv="Content-Type" content="text/html; charset=gbk">
 		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="home/home.js"></script>
 	</head>
-	<body>
+	<body onload="load()">
 		<div class="mainWrapper">
 			<div class="leftRegion">
 				<div class="infoWrapper standardRadius">
@@ -27,10 +28,15 @@
 					</div>
 					<div class="infoContent" >
 						<div class="infoDisplay hostInfo standardRadius" id="hostInfo">
-							<div class="infoBoxLeft standardRadius" style="float: left;">
-							
+							<div class="infoBoxPublic standardRadius" >
+								<p class="profileTitle"></p>
+								<!-- <div class="verticalLayoutHelper"></div> -->
+								<img src="" class="img-polaroid profilePic" />
+								<div style="float:right; height: 20px; width: 132px;"><span>姓名:</span><input style="vertical-align: middle;" type="text" name="public_name" id="public_name" /></div>
+								<!-- <div class="verticalLayoutHelper"></div> -->
+								<textarea name="public_description" id="public_description"></textarea>
 							</div>
-							<div class="infoBoxRight standardRadius" style="float: right;">
+							<div class="infoBoxPrivate standardRadius" style="opacity:1.0; filter:alpha(opacity=100); " >
 							
 							</div>
 						</div>
