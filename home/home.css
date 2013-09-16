@@ -54,6 +54,7 @@ div.tab span {
 
 div.hostInfo {
 	background-color: #f6aec9;
+	
 }
 
 div.stepPrint {
@@ -61,15 +62,33 @@ div.stepPrint {
 }
 
 div.infoDisplay {
-	opacity:0.6;
-	filter:alpha(opacity=60); /* For IE8 and earlier */
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	width: 100%;
+	height: 100%;
 }
 
 div#stepPrint {
 	display: none;
 }
 
-div.infoDisplay {
-	width: 100%;
-	height: 100%;
+div.infoBoxLeft, div.infoBoxRight {
+	/*margin: 10px 10px 10px 10px;*/
+	width:40%;
+	height: 90%;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	*/
+	background-color: #ebebeb;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.infoBoxLeft {
+	margin: 10px 10px 10px 30px;
+}
+
+div.infoBoxRight {
+	margin: 10px 30px 10px 10px;
 }
