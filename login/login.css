@@ -27,6 +27,8 @@ body {
 div.loginBox {
 	height: 80%;
 	width: 100%;
+	position: relative;
+	top: 40px;
 }
 
 div.innerLayOutBox {
@@ -127,4 +129,34 @@ div.demo {
 	-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 			border-radius: 5px;
+}
+
+div.poetryBox {
+	float: right;
+	text-align: center;
+	width: 225px;
+	position: relative;
+	left: 150px;
+	top: 90px;
+}
+
+div.poetryBox button {
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 500px;
+		-moz-border-radius: 500px;
+			border-radius: 500px;
+	color: #29b8ff;
+}
+
+div.poetryBox a{
+	font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
 }
