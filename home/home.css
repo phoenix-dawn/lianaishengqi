@@ -2,7 +2,7 @@ body {
 	background-image:url('background.png');
 	background-repeat:no-repeat;
 	background-position: center top;
-	background-color:#ffffff; 
+	background-color:#f2f3f8; 
 }
 
 div.mainWrapper {
@@ -202,7 +202,7 @@ div#pictures {
 	height: 110px;
 	width: 100%;
 	position: fixed;
-	bottom: 10px;
+	bottom: 20px;
 
 }
 
@@ -245,8 +245,6 @@ div#pictures button {
 div.contactBox {
 	width: 400px;
 	height: 590px;
-	border-color: rgba(250, 213, 229, 1.0);
-	border-style:solid;
 	background-image:url('contact_background.png');
 	background-repeat:no-repeat;
 	background-position: center top;
@@ -262,8 +260,9 @@ div.rightRegion {
 }
 
 div.innerWrapper {
-	width: 220px;
-	height: 502px;
-	border-color: rgba(250, 213, 229, 1.0);
-	border-style:solid;
+	width: 185px;
+	height: 400px;
+	position: relative;
+	left: 73px;
+	top: 110px;
 }
