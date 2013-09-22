@@ -74,7 +74,7 @@ ul.navbar_ {
 ul.navbar_ li {
 	float: left;
 	text-align: center;
-	padding: 0px;/*width:8%;*/
+	padding: 5px 0px 5px 0px;/*width:8%;*/
 }
 ul.navbar_ a:link, ul.navbar_ a:visited {
 	display: block;
@@ -136,6 +136,7 @@ div.navbar_ {
 	width: 100%;
 	position: fixed;
 	top: -5px;
+	z-index: 2;
 }
 li.navbar_myhome {
 	margin-left: 25px;
@@ -144,8 +145,11 @@ li.navbar_myhome {
 }
 /*logo Õº∆¨¥Û–°*/
 div.navbar_ img {
-	width: 30x;
+	
 	height: 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	
 }
 /*END*/
 /*
