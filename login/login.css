@@ -1,16 +1,27 @@
+/*
 div.leftRegion {
 	float: left;
 	width: 30%;
 	height: 100%;
 }
+*/
 
 div.titleText {
-	width: 150%;
+	width: 90%;
 	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50px;
+	/*
 	position: relative;
 	left: -150px;
+	*/
 }
 
+div.leftRegion, div.rightRegion {
+	margin-top: -60px;
+}
 /*
 div.mainWrapper {
 	background-image:url('login/background.png');
@@ -29,6 +40,7 @@ div.loginBox {
 	width: 100%;
 	position: relative;
 	top: 40px;
+	right: -35px;
 }
 
 div.innerLayOutBox {
@@ -105,14 +117,14 @@ button.login {
 
 div.leftRegion {
 	float: left;
-	width: 40%;
+	width: 60%;
 	height: 100%;
 	/* border: 1px solid #e5e5e5; */
 }
 
 div.rightRegion {
 	float: right;
-	width: 60%;
+	width: 40%;
 	height: 100%;
 }
 
@@ -132,11 +144,11 @@ div.demo {
 }
 
 div.poetryBox {
-	float: right;
+	float: left;
 	text-align: center;
 	width: 225px;
 	position: relative;
-	left: 150px;
+	left: 0px;
 	top: 90px;
 }
 
